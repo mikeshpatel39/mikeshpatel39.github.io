@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(250,255,254);
+}
+.menu {
+  padding: 2.5em;
+  text-align: center;
+}
+.linkoptions {
+  text-decoration: none;
+  color: black;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 150%
+}
+.menu a:hover {
+  color: red;
