@@ -37,11 +37,16 @@
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover;
+        border: 4px;
       }
       h1 {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 40px;
         font-family: 'Noto Sans', sans-serif;
+      }
+      .text {
+        padding-left: 15%;
+        padding-right:15%;
       }
       p {
         text-align: center;
@@ -49,7 +54,7 @@
         font-size: 110%
       }
       .socials {
-        margin-top: 200px;
+        margin-top: 60px;
         text-align: center;
       }
       .fa {
@@ -66,12 +71,15 @@
     <div class="banner">
       <p></p>
     </div>
-    <div class="text">
       <h1>Tēnā koutou, nau mai haere mai ki taku rangitaki.</h1>
-       <p>Over time, you will see more things here. But for now, here are the links to my blogposts:
-        <br>
+    <table class ="text">
+       <tr>
+        <td><img src="flowers.png"></td>
+        <td><p>Over time, you will see more things here. But for now, here are the links to my blogposts:<br><br>
+          CSS/HTML: <a href="/blog/html-css.html">Margins vs. Borders vs. Padding</a> </td>
+       </tr>
       </p>
-    </div>
+    </table>
     <div class="socials">
     <a href="https://www.facebook.com/tomilis" class="fa fa-facebook"></a>
     <a href="https://twitter.com/tomilis" class="fa fa-twitter"></a>
