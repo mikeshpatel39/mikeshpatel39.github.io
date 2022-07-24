@@ -41,3 +41,25 @@ h1 {
     margin-left: 20%;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 767px) {
+  .menu {
+    width: 100%;
+  }
+
+  .menu {
+    float: right;
+    background-color: rgb(0, 112, 101);
+    text-align: center;
+    text-decoration: none;
+  }
+
+  ul li {
+    float: right;
+    width: 230px;
+    height: 35px;
+    background-color: rgb(0, 112, 101);
+    opacity: 0.9;
+    font-size: 20px;
+    }
+  }
